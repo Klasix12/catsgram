@@ -10,7 +10,7 @@ import java.time.Instant;
 @EqualsAndHashCode(of = {"id"})
 @Data
 public class Post {
-    long id;
+    Long id;
     long authorId;
     String description;
     Instant postDate;

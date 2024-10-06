@@ -9,7 +9,7 @@ import lombok.*;
 @EqualsAndHashCode(of = {"id"})
 @Data
 public class Image {
-    long id;
+    Long id;
     long postId;
     String originalFileName;
     String filePath;
