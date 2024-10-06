@@ -9,8 +9,8 @@ import lombok.*;
 @EqualsAndHashCode(of = {"id"})
 @Data
 public class Image {
-    Long id;
-    long postId;
-    String originalFileName;
-    String filePath;
+    private Long id;
+    private long postId;
+    private String originalFileName;
+    private String filePath;
 }
