@@ -14,5 +14,5 @@ public class User {
     private String username;
     private String email;
     private String password;
-    private Instant registration;
+    private Instant registrationDate;
 }
