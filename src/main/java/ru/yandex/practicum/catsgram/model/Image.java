@@ -6,7 +6,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
+@EqualsAndHashCode(of = {"id"})
 @Data
 public class Image {
     long id;
